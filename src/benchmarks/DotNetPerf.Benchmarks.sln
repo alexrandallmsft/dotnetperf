@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetPerf.BenchmarkHelpers", "..\libs\DotNetPerf.BenchmarkHelpers\src\DotNetPerf.BenchmarkHelpers.csproj", "{8F10944F-A049-44F2-81ED-8F1E8B80E61E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "Benchmarks.csproj", "{27553285-28D4-4750-BC76-5E3434B0BEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F10944F-A049-44F2-81ED-8F1E8B80E61E}.Debug|x64.ActiveCfg = Debug|x64
+		{8F10944F-A049-44F2-81ED-8F1E8B80E61E}.Debug|x64.Build.0 = Debug|x64
+		{8F10944F-A049-44F2-81ED-8F1E8B80E61E}.Release|x64.ActiveCfg = Release|x64
+		{8F10944F-A049-44F2-81ED-8F1E8B80E61E}.Release|x64.Build.0 = Release|x64
+		{27553285-28D4-4750-BC76-5E3434B0BEB5}.Debug|x64.ActiveCfg = Debug|x64
+		{27553285-28D4-4750-BC76-5E3434B0BEB5}.Debug|x64.Build.0 = Debug|x64
+		{27553285-28D4-4750-BC76-5E3434B0BEB5}.Release|x64.ActiveCfg = Release|x64
+		{27553285-28D4-4750-BC76-5E3434B0BEB5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {245104A8-7661-42C8-8017-DFD9363D5E6E}
+	EndGlobalSection
+EndGlobal
